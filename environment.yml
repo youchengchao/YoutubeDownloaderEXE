@@ -1,0 +1,16 @@
+name: youtube_downloader
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python Core
+  - python = 3.10
+  - pip 
+  # Core Dependencies
+  - pip:
+      - yt-dlp
+      - pyinstaller
+      - ffmpeg
+      
+# Linux系統依賴 (執行前安裝)
+# Ubuntu/Debian: sudo apt install libx11-6 libxext6 libgl1-mesa-glx libglib2.0-0

@@ -1,4 +1,4 @@
-# YouTube Downloader (yt-dlp) with Real-time Progress Bar
+# YouTube Downloader UI exe(yt-dlp)
 
 A Python GUI application for downloading YouTube videos using [yt-dlp](https://github.com/yt-dlp/yt-dlp). Built with Tkinter and packaged via PyInstaller for easy distribution without any dependencies.
 
